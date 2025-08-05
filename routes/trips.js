@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router()
-const Trip = require("../models/trip")
+const Trip = require("../models/Trip")
 const Image = require("../models/Image")
 const { protect, storeAdmin } = require("../Middleware/authMiddleware")
 const { uploadAndProcessMultiple } = require("../Middleware/uploadMiddleware")

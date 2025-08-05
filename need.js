@@ -6,12 +6,12 @@ dotenv.config()
 
 // Import models
 const Destination = require("./models/destination")
-const Restaurant = require("./models/restaurant")
-const Stay = require("./models/stay")
-const Activity = require("./models/activity")
-const Trip = require("./models/trip")
-const Rental = require("./models/rental")
-const Booking = require("./models/booking")
+const Restaurant = require("./models/Restaurant")
+const Stay = require("./models/Stay")
+const Activity = require("./models/Activity")
+const Trip = require("./models/Trip")
+const Rental = require("./models/Rental")
+const Booking = require("./models/Booking")
 // Assuming you have a User model for booking references
 // const User = require("./models/user");
 
